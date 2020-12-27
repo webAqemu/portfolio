@@ -1,9 +1,14 @@
-if (screen.width > 760) {
+if (window.innerWidth > 760) {
+
   const mainImg = document.querySelector('.main-img');
   let imgTop;
 
   imgTop = mainImg.getBoundingClientRect().top;
   mainImg.style.top = imgTop + 'px';
+
+} else {
+  let body = document.querySelector('body')
+  body.style.cssText = 'overflow-x: hidden'
 };
 
 const timeLine = gsap.timeline({

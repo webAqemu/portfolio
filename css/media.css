@@ -97,6 +97,14 @@
 
 @media(max-width: 760px) {
 
+  .menu-link::after {
+    display: none;
+  }
+  
+  .menu-link::before {
+    display: none;
+  }
+
   .menu-link {
     font-size: 16px;
   }
@@ -153,7 +161,7 @@
   }
 
   .about-cv {
-    font-size: 16px;
+    font-size: 18px;
   }
 
 
