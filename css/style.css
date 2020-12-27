@@ -23,9 +23,7 @@ body {
 }
 
 .btn {
-	border: 3px solid transparent;
-	border-image: linear-gradient(180deg, #7978FA, #0887FF); 
-	border-image-slice: 1;
+	background: linear-gradient(180deg, #7978FA, #0887FF); 
 }
 
 
@@ -219,6 +217,7 @@ body {
 .squares {
 	width: 50%;
 	z-index: -1;
+	overflow-x: hidden;
 }
 
 .projects {
