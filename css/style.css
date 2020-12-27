@@ -26,9 +26,6 @@ body {
 	border: 3px solid transparent;
 	border-image: linear-gradient(180deg, #7978FA, #0887FF); 
 	border-image-slice: 1;
-	position: relative;
-	display: block;
-	background: linear-gradient(180deg, #000A3B 0%, #000A3B 100%);
 }
 
 
@@ -66,8 +63,6 @@ body {
 	color: white;
 	position: relative;
 	padding: 10px;
-	transition: all .3s linear;
-	overflow: hidden;
 }
 
 .menu-link span {
@@ -178,7 +173,6 @@ body {
 	height: 110%;
 	background-color: #000A3B;
 }
-
 
 .about {
 	width: 50%;
@@ -296,9 +290,6 @@ body {
 	position: absolute;
 	left: -25px;
 	bottom: -25px;
-}
-
-.contacts {
 }
 
 .contacts-info {
