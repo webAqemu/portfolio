@@ -24,15 +24,10 @@ body {
 }
 
 .btn {
-	background: #000A3B;
+	background: transparent;
 	border: 3px solid transparent;
 	border-image: linear-gradient(180deg, #7978FA, #0887FF); 
 	border-image-slice: 1;
-	transition: background .3s ease;
-}
-
-.btn:hover {
-	background: linear-gradient(180deg, #7978FA 0%, #0887FF 100%);
 }
 
 
