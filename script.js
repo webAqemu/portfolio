@@ -16,6 +16,8 @@ const timeLine = gsap.timeline({
 });
 
 timeLine
+  .from('.bar', { x: '-100%' })
+  .to('.loading', { y: '-100%' })
   .to('.main-box', { x: '100%' })
   .from('.main-img img', { scale: 1.5 }, '-=.5')
   .from('.main-btn', { opacity: 0 })

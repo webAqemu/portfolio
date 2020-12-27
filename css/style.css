@@ -351,6 +351,45 @@ body {
   margin-right: auto;
 }
 
+.loading {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 1000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.loading-text {
+	color: black;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.loading span {
+	position: relative;
+	overflow: hidden;
+}
+
+.line {
+	width: 300px;
+	height: 50px;
+	border: 3px solid black;
+}
+
+.bar {
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	width: calc(100% - 6px);
+	height: calc(100% - 6px);
+	background: linear-gradient(-90deg, #7978FA 0%, #0887FF 100%);
+	z-index: -1;
+}
+
 /* .cursor {
   width: 50px;
   height: 50px;
