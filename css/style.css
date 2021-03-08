@@ -212,6 +212,15 @@ body {
   margin: 0;
 }
 
+.about-text a {
+  color: white;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.about-text a:hover {
+  color: #0887ff;
+}
 
 .squares {
   width: 50%;
